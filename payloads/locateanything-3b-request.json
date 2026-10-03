@@ -1,0 +1,11 @@
+{
+  "inputs": {
+    "image": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAAZUlEQVR42u3XsQ0AIAwDsHzO6eWBMnUBYaljhnqKklppL6n2bssHAAAAAGAEeOXRcx4AAAAAYJLXxAAAAAD2gCYGAAAAsAc0MQAAAIA9oIkBAAAA7AFNDAAAAGAPaGIAAACAbwAbVXfpHlumqH4AAAAASUVORK5CYII=",
+    "prompt": "Locate all the instances that matches the following description: object."
+  },
+  "parameters": {
+    "generation_mode": "hybrid",
+    "max_new_tokens": 256,
+    "temperature": 0.0
+  }
+}

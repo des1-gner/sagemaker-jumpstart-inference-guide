@@ -1,0 +1,13 @@
+{
+  "image_base64": "<11872 chars>",
+  "image_base64__decoded_bytes": 8903,
+  "width": 64,
+  "height": 64,
+  "latent_shape": [
+    1,
+    32,
+    8,
+    8
+  ],
+  "format": "PNG"
+}

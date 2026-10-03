@@ -1,0 +1,7 @@
+{
+  "inputs": "VoxCPM2 brings multilingual support, creative voice design, and controllable voice cloning.",
+  "parameters": {
+    "inference_timesteps": 10,
+    "cfg_value": 2.0
+  }
+}

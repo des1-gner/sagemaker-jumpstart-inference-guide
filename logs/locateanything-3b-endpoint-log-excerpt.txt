@@ -1,0 +1,201 @@
+### stream AllTraffic/<instance-id-redacted>
+2026-10-03T02:43:32,296 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152531: AddedToken("<854>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,296 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152532: AddedToken("<855>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,296 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152533: AddedToken("<856>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,296 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152534: AddedToken("<857>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,296 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152535: AddedToken("<858>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,296 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152536: AddedToken("<859>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,296 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152537: AddedToken("<860>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,296 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152538: AddedToken("<861>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,296 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152539: AddedToken("<862>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,296 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152540: AddedToken("<863>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,296 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152541: AddedToken("<864>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,296 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152542: AddedToken("<865>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,296 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152543: AddedToken("<866>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,297 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152544: AddedToken("<867>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,297 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152545: AddedToken("<868>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,297 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152546: AddedToken("<869>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,297 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152547: AddedToken("<870>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,297 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152548: AddedToken("<871>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,297 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152549: AddedToken("<872>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,297 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152550: AddedToken("<873>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,297 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152551: AddedToken("<874>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,297 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152552: AddedToken("<875>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,297 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152553: AddedToken("<876>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,297 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152554: AddedToken("<877>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,297 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152555: AddedToken("<878>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,297 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152556: AddedToken("<879>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,297 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152557: AddedToken("<880>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,297 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152558: AddedToken("<881>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,297 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152559: AddedToken("<882>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,297 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152560: AddedToken("<883>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,297 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152561: AddedToken("<884>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,297 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152562: AddedToken("<885>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,297 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152563: AddedToken("<886>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,297 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152564: AddedToken("<887>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,297 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152565: AddedToken("<888>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,298 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152566: AddedToken("<889>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,298 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152567: AddedToken("<890>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,298 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152568: AddedToken("<891>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,298 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152569: AddedToken("<892>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,298 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152570: AddedToken("<893>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,298 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152571: AddedToken("<894>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,298 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152572: AddedToken("<895>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,298 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152573: AddedToken("<896>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,298 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152574: AddedToken("<897>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,298 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152575: AddedToken("<898>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,298 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152576: AddedToken("<899>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,298 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152577: AddedToken("<900>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,298 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152578: AddedToken("<901>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,298 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152579: AddedToken("<902>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,298 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152580: AddedToken("<903>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,298 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152581: AddedToken("<904>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,298 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152582: AddedToken("<905>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,298 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152583: AddedToken("<906>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,298 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152584: AddedToken("<907>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,298 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152585: AddedToken("<908>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,298 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152586: AddedToken("<909>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,298 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152587: AddedToken("<910>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,299 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152588: AddedToken("<911>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,299 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152589: AddedToken("<912>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,299 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152590: AddedToken("<913>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,299 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152591: AddedToken("<914>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,299 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152592: AddedToken("<915>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,299 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152593: AddedToken("<916>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,299 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152594: AddedToken("<917>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,299 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152595: AddedToken("<918>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,299 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152596: AddedToken("<919>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,299 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152597: AddedToken("<920>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,299 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152598: AddedToken("<921>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,299 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152599: AddedToken("<922>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,299 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152600: AddedToken("<923>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,299 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152601: AddedToken("<924>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,299 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152602: AddedToken("<925>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,299 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152603: AddedToken("<926>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,299 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152604: AddedToken("<927>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,299 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152605: AddedToken("<928>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,300 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152606: AddedToken("<929>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,300 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152607: AddedToken("<930>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,300 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152608: AddedToken("<931>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,300 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152609: AddedToken("<932>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,300 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152610: AddedToken("<933>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,300 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152611: AddedToken("<934>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,300 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152612: AddedToken("<935>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,300 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152613: AddedToken("<936>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,300 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152614: AddedToken("<937>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,300 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152615: AddedToken("<938>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,300 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152616: AddedToken("<939>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,300 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152617: AddedToken("<940>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,300 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152618: AddedToken("<941>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,300 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152619: AddedToken("<942>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,300 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152620: AddedToken("<943>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,300 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152621: AddedToken("<944>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,300 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152622: AddedToken("<945>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,300 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152623: AddedToken("<946>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,300 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152624: AddedToken("<947>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,301 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152625: AddedToken("<948>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,301 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152626: AddedToken("<949>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,301 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152627: AddedToken("<950>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,301 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152628: AddedToken("<951>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,301 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152629: AddedToken("<952>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,301 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152630: AddedToken("<953>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,301 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152631: AddedToken("<954>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,301 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152632: AddedToken("<955>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,301 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152633: AddedToken("<956>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,301 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152634: AddedToken("<957>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,301 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152635: AddedToken("<958>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,301 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152636: AddedToken("<959>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,301 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152637: AddedToken("<960>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,301 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152638: AddedToken("<961>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,301 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152639: AddedToken("<962>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,301 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152640: AddedToken("<963>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,301 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152641: AddedToken("<964>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,301 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152642: AddedToken("<965>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,301 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152643: AddedToken("<966>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,301 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152644: AddedToken("<967>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152645: AddedToken("<968>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152646: AddedToken("<969>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152647: AddedToken("<970>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152648: AddedToken("<971>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152649: AddedToken("<972>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152650: AddedToken("<973>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152651: AddedToken("<974>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152652: AddedToken("<975>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152653: AddedToken("<976>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152654: AddedToken("<977>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152655: AddedToken("<978>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152656: AddedToken("<979>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152657: AddedToken("<980>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152658: AddedToken("<981>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152659: AddedToken("<982>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152660: AddedToken("<983>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152661: AddedToken("<984>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152662: AddedToken("<985>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152663: AddedToken("<986>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152664: AddedToken("<987>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152665: AddedToken("<988>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152666: AddedToken("<989>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152667: AddedToken("<990>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152668: AddedToken("<991>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152669: AddedToken("<992>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152670: AddedToken("<993>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152671: AddedToken("<994>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152672: AddedToken("<995>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152673: AddedToken("<996>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152674: AddedToken("<997>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152675: AddedToken("<998>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152676: AddedToken("<999>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152677: AddedToken("<1000>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152678: AddedToken("<null>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152679: AddedToken("<switch>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - #011152680: AddedToken("</c>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - }
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - )
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - {
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   "auto_map": {
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     "AutoImageProcessor": "image_processing_locateanything.LocateAnythingImageProcessor",
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     "AutoProcessor": "processing_locateanything.LocateAnythingProcessor"
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   },
+2026-10-03T02:43:32,302 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   "image_end_token": "</img>",
+2026-10-03T02:43:32,303 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   "image_placeholder": "image",
+2026-10-03T02:43:32,303 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   "image_start_token": "<img>",
+2026-10-03T02:43:32,303 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   "image_token": "<IMG_CONTEXT>",
+2026-10-03T02:43:32,303 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   "merge_kernel_size": [
+2026-10-03T02:43:32,303 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     2,
+2026-10-03T02:43:32,303 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     2
+2026-10-03T02:43:32,303 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   ],
+2026-10-03T02:43:32,303 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   "processor_class": "LocateAnythingProcessor",
+2026-10-03T02:43:32,303 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   "video_placeholder": "video",
+2026-10-03T02:43:32,303 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   "video_token": "<IMG_CONTEXT>"
+2026-10-03T02:43:32,303 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - }
+2026-10-03T02:43:32,386 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -
+2026-10-03T02:43:32,386 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - mlp_checkpoint: False
+2026-10-03T02:43:32,399 [WARN ] W-9000-model-stderr com.amazonaws.ml.mms.wlm.WorkerLifeCycle - Qwen2ForCausalLM has generative capabilities, as `prepare_inputs_for_generation` is explicitly overwritten. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
+2026-10-03T02:43:32,399 [WARN ] W-9000-model-stderr com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+2026-10-03T02:43:32,400 [WARN ] W-9000-model-stderr com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
+2026-10-03T02:43:32,400 [WARN ] W-9000-model-stderr com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   - If you are not the owner of the model architecture class, please contact the model code owner to update it.
+2026-10-03T02:43:32,720 [INFO ] pool-2-thread-3 ACCESS_LOG - /<internal-ip-redacted> "GET /ping HTTP/1.1" 200 0
+2026-10-03T02:43:33,726 [WARN ] W-9000-model-stderr com.amazonaws.ml.mms.wlm.WorkerLifeCycle -
+2026-10-03T02:43:33,880 [WARN ] W-9000-model-stderr com.amazonaws.ml.mms.wlm.WorkerLifeCycle - Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+2026-10-03T02:43:33,930 [WARN ] W-9000-model-stderr com.amazonaws.ml.mms.wlm.WorkerLifeCycle - Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  6.50it/s]
+2026-10-03T02:43:33,931 [WARN ] W-9000-model-stderr com.amazonaws.ml.mms.wlm.WorkerLifeCycle - Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  9.79it/s]
+2026-10-03T02:43:37,720 [INFO ] pool-2-thread-3 ACCESS_LOG - /<internal-ip-redacted> "GET /ping HTTP/1.1" 200 1
+2026-10-03T02:43:42,738 [INFO ] pool-2-thread-3 ACCESS_LOG - /<internal-ip-redacted> "GET /ping HTTP/1.1" 200 0
+2026-10-03T02:43:47,878 [INFO ] pool-2-thread-3 ACCESS_LOG - /<internal-ip-redacted> "GET /ping HTTP/1.1" 200 1
+2026-10-03T02:43:52,258 [WARN ] W-9000-model-stderr com.amazonaws.ml.mms.wlm.WorkerLifeCycle - /root/.cache/huggingface/modules/transformers_modules/model/generate_utils.py:186: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+2026-10-03T02:43:52,259 [WARN ] W-9000-model-stderr com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   box_avg.append(torch.tensor(out_ref, dtype=x0.dtype, device=x0.device))
+2026-10-03T02:43:52,378 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - Warmup complete.
+2026-10-03T02:43:52,378 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - Model model loaded io_fd=52b83ffffec81a38-00000020-00000000-a9cc2432eda5215a-10b17eed
+2026-10-03T02:43:52,380 [INFO ] W-9000-model com.amazonaws.ml.mms.wlm.WorkerThread - Backend response time: 25133
+2026-10-03T02:43:52,381 [WARN ] W-9000-model com.amazonaws.ml.mms.wlm.WorkerLifeCycle - attachIOStreams() threadName=W-model-1
+2026-10-03T02:43:52,730 [INFO ] pool-2-thread-3 ACCESS_LOG - /<internal-ip-redacted> "GET /ping HTTP/1.1" 200 1
+2026-10-03T02:43:57,720 [INFO ] pool-2-thread-3 ACCESS_LOG - /<internal-ip-redacted> "GET /ping HTTP/1.1" 200 0
+2026-10-03T02:44:02,676 [INFO ] W-9000-model com.amazonaws.ml.mms.wlm.WorkerThread - Backend response time: 1705
+2026-10-03T02:44:02,675 [INFO ] W-model-1-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - Preprocess time - 0.021219253540039062 ms
+2026-10-03T02:44:02,676 [INFO ] W-model-1-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - Predict time - 1702.7347087860107 ms
+2026-10-03T02:44:02,676 [INFO ] W-9000-model ACCESS_LOG - /<internal-ip-redacted> "POST /invocations HTTP/1.1" 200 1707
+2026-10-03T02:44:02,677 [INFO ] W-model-1-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - Postprocess time - 0.030040740966796875 ms
+2026-10-03T02:44:02,718 [INFO ] pool-2-thread-3 ACCESS_LOG - /<internal-ip-redacted> "GET /ping HTTP/1.1" 200 0
+2026-10-03T02:44:07,718 [INFO ] pool-2-thread-3 ACCESS_LOG - /<internal-ip-redacted> "GET /ping HTTP/1.1" 200 0
+2026-10-03T02:44:12,718 [INFO ] pool-2-thread-3 ACCESS_LOG - /<internal-ip-redacted> "GET /ping HTTP/1.1" 200 0

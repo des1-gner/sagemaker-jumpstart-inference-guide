@@ -1,0 +1,284 @@
+### stream AllTraffic/<instance-id-redacted>
+/opt/conda/lib/python3.12/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/opt/conda/lib/python3.12/site-packages/sagemaker_inference/model_server.py:24: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Processing /opt/ml/model/code/lib/nvidia_cufft_cu12-11.2.1.3-py3-none-manylinux2014_x86_64.whl (from -r /opt/ml/model/code/requirements.txt (line 1))
+Processing /opt/ml/model/code/lib/idna-3.18-py3-none-any.whl (from -r /opt/ml/model/code/requirements.txt (line 2))
+Processing /opt/ml/model/code/lib/nvidia_cuda_cupti_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl (from -r /opt/ml/model/code/requirements.txt (line 3))
+Processing /opt/ml/model/code/lib/h11-0.16.0-py3-none-any.whl (from -r /opt/ml/model/code/requirements.txt (line 4))
+Processing /opt/ml/model/code/lib/certifi-2026.6.17-py3-none-any.whl (from -r /opt/ml/model/code/requirements.txt (line 5))
+Processing /opt/ml/model/code/lib/nvidia_cusparse_cu12-12.3.1.170-py3-none-manylinux2014_x86_64.whl (from -r /opt/ml/model/code/requirements.txt (line 6))
+Processing /opt/ml/model/code/lib/importlib_metadata-9.0.0-py3-none-any.whl (from -r /opt/ml/model/code/requirements.txt (line 7))
+Processing /opt/ml/model/code/lib/safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (from -r /opt/ml/model/code/requirements.txt (line 8))
+Processing /opt/ml/model/code/lib/jinja2-3.1.6-py3-none-any.whl (from -r /opt/ml/model/code/requirements.txt (line 9))
+Processing /opt/ml/model/code/lib/sympy-1.13.1-py3-none-any.whl (from -r /opt/ml/model/code/requirements.txt (line 10))
+Processing /opt/ml/model/code/lib/nvidia_nvjitlink_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl (from -r /opt/ml/model/code/requirements.txt (line 11))
+Processing /opt/ml/model/code/lib/fsspec-2026.6.0-py3-none-any.whl (from -r /opt/ml/model/code/requirements.txt (line 12))
+Processing /opt/ml/model/code/lib/typing_extensions-4.16.0-py3-none-any.whl (from -r /opt/ml/model/code/requirements.txt (line 13))
+Processing /opt/ml/model/code/lib/httpcore-1.0.9-py3-none-any.whl (from -r /opt/ml/model/code/requirements.txt (line 14))
+Processing /opt/ml/model/code/lib/triton-3.2.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (from -r /opt/ml/model/code/requirements.txt (line 15))
+Processing /opt/ml/model/code/lib/nvidia_cusparselt_cu12-0.6.2-py3-none-manylinux2014_x86_64.whl (from -r /opt/ml/model/code/requirements.txt (line 16))
+Processing /opt/ml/model/code/lib/psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl (from -r /opt/ml/model/code/requirements.txt (line 17))
+Processing /opt/ml/model/code/lib/setuptools-83.0.0-py3-none-any.whl (from -r /opt/ml/model/code/requirements.txt (line 18))
+Processing /opt/ml/model/code/lib/mpmath-1.3.0-py3-none-any.whl (from -r /opt/ml/model/code/requirements.txt (line 19))
+Processing /opt/ml/model/code/lib/accelerate-1.14.0-py3-none-any.whl (from -r /opt/ml/model/code/requirements.txt (line 20))
+Processing /opt/ml/model/code/lib/diffusers-0.39.0-py3-none-any.whl (from -r /opt/ml/model/code/requirements.txt (line 21))
+Processing /opt/ml/model/code/lib/hf_xet-1.5.1-cp37-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (from -r /opt/ml/model/code/requirements.txt (line 22))
+Processing /opt/ml/model/code/lib/anyio-4.14.1-py3-none-any.whl (from -r /opt/ml/model/code/requirements.txt (line 23))
+Processing /opt/ml/model/code/lib/urllib3-2.7.0-py3-none-any.whl (from -r /opt/ml/model/code/requirements.txt (line 24))
+Processing /opt/ml/model/code/lib/nvidia_curand_cu12-10.3.5.147-py3-none-manylinux2014_x86_64.whl (from -r /opt/ml/model/code/requirements.txt (line 25))
+Processing /opt/ml/model/code/lib/networkx-3.6.1-py3-none-any.whl (from -r /opt/ml/model/code/requirements.txt (line 26))
+Processing /opt/ml/model/code/lib/nvidia_cublas_cu12-12.4.5.8-py3-none-manylinux2014_x86_64.whl (from -r /opt/ml/model/code/requirements.txt (line 27))
+Processing /opt/ml/model/code/lib/tokenizers-0.22.2-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (from -r /opt/ml/model/code/requirements.txt (line 28))
+Processing /opt/ml/model/code/lib/zipp-4.1.0-py3-none-any.whl (from -r /opt/ml/model/code/requirements.txt (line 29))
+Processing /opt/ml/model/code/lib/markupsafe-3.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (from -r /opt/ml/model/code/requirements.txt (line 30))
+Processing /opt/ml/model/code/lib/charset_normalizer-3.4.9-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (from -r /opt/ml/model/code/requirements.txt (line 31))
+Processing /opt/ml/model/code/lib/nvidia_cuda_runtime_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl (from -r /opt/ml/model/code/requirements.txt (line 32))
+Processing /opt/ml/model/code/lib/requests-2.34.2-py3-none-any.whl (from -r /opt/ml/model/code/requirements.txt (line 33))
+Processing /opt/ml/model/code/lib/torch-2.6.0-cp312-cp312-manylinux1_x86_64.whl (from -r /opt/ml/model/code/requirements.txt (line 34))
+Processing /opt/ml/model/code/lib/httpx-0.28.1-py3-none-any.whl (from -r /opt/ml/model/code/requirements.txt (line 35))
+Processing /opt/ml/model/code/lib/numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (from -r /opt/ml/model/code/requirements.txt (line 36))
+Processing /opt/ml/model/code/lib/nvidia_cudnn_cu12-9.1.0.70-py3-none-manylinux2014_x86_64.whl (from -r /opt/ml/model/code/requirements.txt (line 37))
+Processing /opt/ml/model/code/lib/regex-2026.7.10-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (from -r /opt/ml/model/code/requirements.txt (line 38))
+Processing /opt/ml/model/code/lib/huggingface_hub-0.36.2-py3-none-any.whl (from -r /opt/ml/model/code/requirements.txt (line 39))
+Processing /opt/ml/model/code/lib/pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (from -r /opt/ml/model/code/requirements.txt (line 40))
+Processing /opt/ml/model/code/lib/peft-0.19.1-py3-none-any.whl (from -r /opt/ml/model/code/requirements.txt (line 41))
+Processing /opt/ml/model/code/lib/nvidia_cuda_nvrtc_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl (from -r /opt/ml/model/code/requirements.txt (line 42))
+Processing /opt/ml/model/code/lib/tqdm-4.68.4-py3-none-any.whl (from -r /opt/ml/model/code/requirements.txt (line 43))
+Processing /opt/ml/model/code/lib/nvidia_cusolver_cu12-11.6.1.9-py3-none-manylinux2014_x86_64.whl (from -r /opt/ml/model/code/requirements.txt (line 44))
+Processing /opt/ml/model/code/lib/nvidia_nvtx_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl (from -r /opt/ml/model/code/requirements.txt (line 45))
+Processing /opt/ml/model/code/lib/filelock-3.29.7-py3-none-any.whl (from -r /opt/ml/model/code/requirements.txt (line 46))
+Processing /opt/ml/model/code/lib/transformers-4.57.6-py3-none-any.whl (from -r /opt/ml/model/code/requirements.txt (line 47))
+Processing /opt/ml/model/code/lib/nvidia_nccl_cu12-2.21.5-py3-none-manylinux2014_x86_64.whl (from -r /opt/ml/model/code/requirements.txt (line 48))
+Processing /opt/ml/model/code/lib/packaging-26.2-py3-none-any.whl (from -r /opt/ml/model/code/requirements.txt (line 49))
+Processing /opt/ml/model/code/lib/pillow-12.2.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (from -r /opt/ml/model/code/requirements.txt (line 50))
+jinja2 is already installed with the same version as the provided wheel. Use --force-reinstall to force an installation of the wheel.
+sympy is already installed with the same version as the provided wheel. Use --force-reinstall to force an installation of the wheel.
+mpmath is already installed with the same version as the provided wheel. Use --force-reinstall to force an installation of the wheel.
+triton is already installed with the same version as the provided wheel. Use --force-reinstall to force an installation of the wheel.
+networkx is already installed with the same version as the provided wheel. Use --force-reinstall to force an installation of the wheel.
+markupsafe is already installed with the same version as the provided wheel. Use --force-reinstall to force an installation of the wheel.
+numpy is already installed with the same version as the provided wheel. Use --force-reinstall to force an installation of the wheel.
+pyyaml is already installed with the same version as the provided wheel. Use --force-reinstall to force an installation of the wheel.
+Installing collected packages: nvidia-cusparselt-cu12, zipp, urllib3, typing-extensions, tqdm, setuptools, safetensors, regex, psutil, pillow, packaging, nvidia-nvtx-cu12, nvidia-nvjitlink-cu12, nvidia-nccl-cu12, nvidia-curand-cu12, nvidia-cufft-cu12, nvidia-cuda-runtime-cu12, nvidia-cuda-nvrtc-cu12, nvidia-cuda-cupti-cu12, nvidia-cublas-cu12, idna, hf-xet, h11, fsspec, filelock, charset-normalizer, certifi, requests, nvidia-cusparse-cu12, nvidia-cudnn-cu12, importlib-metadata, httpcore, anyio, nvidia-cusolver-cu12, huggingface-hub, httpx, torch, tokenizers, diffusers, transformers, accelerate, peft
+  Attempting uninstall: nvidia-cusparselt-cu12
+    Found existing installation: nvidia-cusparselt-cu12 0.7.1
+    Uninstalling nvidia-cusparselt-cu12-0.7.1:
+      Successfully uninstalled nvidia-cusparselt-cu12-0.7.1
+  Attempting uninstall: zipp
+    Found existing installation: zipp 3.23.0
+    Uninstalling zipp-3.23.0:
+      Successfully uninstalled zipp-3.23.0
+  Attempting uninstall: urllib3
+    Found existing installation: urllib3 2.6.2
+    Uninstalling urllib3-2.6.2:
+      Successfully uninstalled urllib3-2.6.2
+  Attempting uninstall: typing-extensions
+    Found existing installation: typing_extensions 4.15.0
+    Uninstalling typing_extensions-4.15.0:
+      Successfully uninstalled typing_extensions-4.15.0
+  Attempting uninstall: tqdm
+    Found existing installation: tqdm 4.67.1
+    Uninstalling tqdm-4.67.1:
+      Successfully uninstalled tqdm-4.67.1
+  Attempting uninstall: setuptools
+    Found existing installation: setuptools 80.9.0
+    Uninstalling setuptools-80.9.0:
+      Successfully uninstalled setuptools-80.9.0
+  Attempting uninstall: safetensors
+    Found existing installation: safetensors 0.7.0
+    Uninstalling safetensors-0.7.0:
+      Successfully uninstalled safetensors-0.7.0
+  Attempting uninstall: regex
+    Found existing installation: regex 2025.11.3
+    Uninstalling regex-2025.11.3:
+      Successfully uninstalled regex-2025.11.3
+  Attempting uninstall: psutil
+    Found existing installation: psutil 7.1.3
+    Uninstalling psutil-7.1.3:
+      Successfully uninstalled psutil-7.1.3
+  Attempting uninstall: pillow
+    Found existing installation: pillow 12.0.0
+    Uninstalling pillow-12.0.0:
+      Successfully uninstalled pillow-12.0.0
+  Attempting uninstall: packaging
+    Found existing installation: packaging 25.0
+    Uninstalling packaging-25.0:
+      Successfully uninstalled packaging-25.0
+  Attempting uninstall: nvidia-nvtx-cu12
+    Found existing installation: nvidia-nvtx-cu12 12.8.90
+    Uninstalling nvidia-nvtx-cu12-12.8.90:
+      Successfully uninstalled nvidia-nvtx-cu12-12.8.90
+  Attempting uninstall: nvidia-nvjitlink-cu12
+    Found existing installation: nvidia-nvjitlink-cu12 12.8.93
+    Uninstalling nvidia-nvjitlink-cu12-12.8.93:
+      Successfully uninstalled nvidia-nvjitlink-cu12-12.8.93
+  Attempting uninstall: nvidia-nccl-cu12
+    Found existing installation: nvidia-nccl-cu12 2.27.5
+    Uninstalling nvidia-nccl-cu12-2.27.5:
+      Successfully uninstalled nvidia-nccl-cu12-2.27.5
+  Attempting uninstall: nvidia-curand-cu12
+    Found existing installation: nvidia-curand-cu12 10.3.9.90
+    Uninstalling nvidia-curand-cu12-10.3.9.90:
+      Successfully uninstalled nvidia-curand-cu12-10.3.9.90
+  Attempting uninstall: nvidia-cufft-cu12
+    Found existing installation: nvidia-cufft-cu12 11.3.3.83
+    Uninstalling nvidia-cufft-cu12-11.3.3.83:
+      Successfully uninstalled nvidia-cufft-cu12-11.3.3.83
+  Attempting uninstall: nvidia-cuda-runtime-cu12
+    Found existing installation: nvidia-cuda-runtime-cu12 12.8.90
+    Uninstalling nvidia-cuda-runtime-cu12-12.8.90:
+      Successfully uninstalled nvidia-cuda-runtime-cu12-12.8.90
+  Attempting uninstall: nvidia-cuda-nvrtc-cu12
+    Found existing installation: nvidia-cuda-nvrtc-cu12 12.8.93
+    Uninstalling nvidia-cuda-nvrtc-cu12-12.8.93:
+      Successfully uninstalled nvidia-cuda-nvrtc-cu12-12.8.93
+  Attempting uninstall: nvidia-cuda-cupti-cu12
+    Found existing installation: nvidia-cuda-cupti-cu12 12.8.90
+    Uninstalling nvidia-cuda-cupti-cu12-12.8.90:
+      Successfully uninstalled nvidia-cuda-cupti-cu12-12.8.90
+  Attempting uninstall: nvidia-cublas-cu12
+    Found existing installation: nvidia-cublas-cu12 12.8.4.1
+    Uninstalling nvidia-cublas-cu12-12.8.4.1:
+      Successfully uninstalled nvidia-cublas-cu12-12.8.4.1
+  Attempting uninstall: idna
+    Found existing installation: idna 3.11
+    Uninstalling idna-3.11:
+      Successfully uninstalled idna-3.11
+  Attempting uninstall: fsspec
+    Found existing installation: fsspec 2025.12.0
+    Uninstalling fsspec-2025.12.0:
+      Successfully uninstalled fsspec-2025.12.0
+  Attempting uninstall: filelock
+    Found existing installation: filelock 3.20.0
+    Uninstalling filelock-3.20.0:
+      Successfully uninstalled filelock-3.20.0
+  Attempting uninstall: charset-normalizer
+    Found existing installation: charset-normalizer 3.4.4
+    Uninstalling charset-normalizer-3.4.4:
+      Successfully uninstalled charset-normalizer-3.4.4
+  Attempting uninstall: certifi
+    Found existing installation: certifi 2025.11.12
+    Uninstalling certifi-2025.11.12:
+      Successfully uninstalled certifi-2025.11.12
+  Attempting uninstall: requests
+    Found existing installation: requests 2.32.5
+    Uninstalling requests-2.32.5:
+      Successfully uninstalled requests-2.32.5
+  Attempting uninstall: nvidia-cusparse-cu12
+    Found existing installation: nvidia-cusparse-cu12 12.5.8.93
+    Uninstalling nvidia-cusparse-cu12-12.5.8.93:
+      Successfully uninstalled nvidia-cusparse-cu12-12.5.8.93
+  Attempting uninstall: nvidia-cudnn-cu12
+    Found existing installation: nvidia-cudnn-cu12 9.10.2.21
+    Uninstalling nvidia-cudnn-cu12-9.10.2.21:
+      Successfully uninstalled nvidia-cudnn-cu12-9.10.2.21
+  Attempting uninstall: importlib-metadata
+    Found existing installation: importlib_metadata 8.7.0
+    Uninstalling importlib_metadata-8.7.0:
+      Successfully uninstalled importlib_metadata-8.7.0
+  Attempting uninstall: nvidia-cusolver-cu12
+    Found existing installation: nvidia-cusolver-cu12 11.7.3.90
+    Uninstalling nvidia-cusolver-cu12-11.7.3.90:
+      Successfully uninstalled nvidia-cusolver-cu12-11.7.3.90
+  Attempting uninstall: huggingface-hub
+    Found existing installation: huggingface-hub 0.30.0
+    Uninstalling huggingface-hub-0.30.0:
+      Successfully uninstalled huggingface-hub-0.30.0
+  Attempting uninstall: torch
+    Found existing installation: torch 2.6.0+cu124
+    Uninstalling torch-2.6.0+cu124:
+      Successfully uninstalled torch-2.6.0+cu124
+  Attempting uninstall: tokenizers
+    Found existing installation: tokenizers 0.21.4
+    Uninstalling tokenizers-0.21.4:
+      Successfully uninstalled tokenizers-0.21.4
+  Attempting uninstall: diffusers
+    Found existing installation: diffusers 0.33.1
+    Uninstalling diffusers-0.33.1:
+      Successfully uninstalled diffusers-0.33.1
+  Attempting uninstall: transformers
+    Found existing installation: transformers 4.51.3
+    Uninstalling transformers-4.51.3:
+      Successfully uninstalled transformers-4.51.3
+  Attempting uninstall: accelerate
+    Found existing installation: accelerate 1.6.0
+    Uninstalling accelerate-1.6.0:
+      Successfully uninstalled accelerate-1.6.0
+  Attempting uninstall: peft
+    Found existing installation: peft 0.14.0
+    Uninstalling peft-0.14.0:
+      Successfully uninstalled peft-0.14.0
+Successfully installed accelerate-1.14.0 anyio-4.14.1 certifi-2026.6.17 charset-normalizer-3.4.9 diffusers-0.39.0 filelock-3.29.7 fsspec-2026.6.0 h11-0.16.0 hf-xet-1.5.1 httpcore-1.0.9 httpx-0.28.1 huggingface-hub-0.36.2 idna-3.18 importlib-metadata-9.0.0 nvidia-cublas-cu12-12.4.5.8 nvidia-cuda-cupti-cu12-12.4.127 nvidia-cuda-nvrtc-cu12-12.4.127 nvidia-cuda-runtime-cu12-12.4.127 nvidia-cudnn-cu12-9.1.0.70 nvidia-cufft-cu12-11.2.1.3 nvidia-curand-cu12-10.3.5.147 nvidia-cusolver-cu12-11.6.1.9 nvidia-cusparse-cu12-12.3.1.170 nvidia-cusparselt-cu12-0.6.2 nvidia-nccl-cu12-2.21.5 nvidia-nvjitlink-cu12-12.4.127 nvidia-nvtx-cu12-12.4.127 packaging-26.2 peft-0.19.1 pillow-12.2.0 psutil-7.2.2 regex-2026.7.10 requests-2.34.2 safetensors-0.8.0 setuptools-83.0.0 tokenizers-0.22.2 torch-2.6.0 tqdm-4.68.4 transformers-4.57.6 typing-extensions-4.16.0 urllib3-2.7.0 zipp-4.1.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+Warning: MMS is using non-default JVM parameters: -XX:-UseContainerSupport
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+2026-10-03T02:50:13,981 [INFO ] main com.amazonaws.ml.mms.ModelServer -
+MMS Home: /opt/conda/lib/python3.12/site-packages
+Current directory: /
+Temp directory: /tmp
+Number of GPUs: 1
+Number of CPUs: 8
+Max heap size: 7728 M
+Python executable: /opt/conda/bin/python3.12
+Config file: /etc/sagemaker-mms.properties
+Inference address: http://0.0.0.0:8080
+Management address: http://0.0.0.0:8080
+Model Store: /
+Initial Models: model=/opt/ml/model
+Log dir: null
+Metrics dir: null
+Netty threads: 0
+Netty client threads: 0
+Default workers per model: 1
+Blacklist Regex: N/A
+Maximum Response Size: 6553500
+Maximum Request Size: 6553500
+Preload model: false
+Prefer direct buffer: false
+2026-10-03T02:50:13,985 [INFO ] main com.amazonaws.ml.mms.ModelServer - Loading initial models: /opt/ml/model preload_model: false
+2026-10-03T02:50:14,011 [WARN ] W-9000-model com.amazonaws.ml.mms.wlm.WorkerLifeCycle - attachIOStreams() threadName=W-9000-model
+2026-10-03T02:50:14,068 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - model_service_worker started with args: --sock-type unix --sock-name /tmp/.mms.sock.9000 --handler sagemaker_huggingface_inference_toolkit.handler_service --model-path /opt/ml/model --model-name model --preload-model false --tmp-dir /tmp
+2026-10-03T02:50:14,069 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - Listening on port: /tmp/.mms.sock.9000
+2026-10-03T02:50:14,070 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - [PID] 63
+2026-10-03T02:50:14,070 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - MMS worker started.
+2026-10-03T02:50:14,070 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - Python runtime: 3.12.8
+2026-10-03T02:50:14,070 [INFO ] main com.amazonaws.ml.mms.wlm.ModelManager - Model model loaded.
+2026-10-03T02:50:14,073 [INFO ] main com.amazonaws.ml.mms.ModelServer - Initialize Inference server with: EpollServerSocketChannel.
+2026-10-03T02:50:14,077 [INFO ] W-9000-model com.amazonaws.ml.mms.wlm.WorkerThread - Connecting to: /tmp/.mms.sock.9000
+2026-10-03T02:50:14,110 [INFO ] main com.amazonaws.ml.mms.ModelServer - Inference API bind to: http://0.0.0.0:8080
+2026-10-03T02:50:14,110 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - Connection accepted: /tmp/.mms.sock.9000.
+Model server started.
+2026-10-03T02:50:14,148 [WARN ] pool-3-thread-1 com.amazonaws.ml.mms.metrics.MetricCollector - worker pid is not available yet.
+2026-10-03T02:50:14,789 [WARN ] W-9000-model-stderr com.amazonaws.ml.mms.wlm.WorkerLifeCycle - /opt/conda/lib/python3.12/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+2026-10-03T02:50:14,789 [WARN ] W-9000-model-stderr com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   import pynvml  # type: ignore[import]
+2026-10-03T02:50:18,346 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - Inference script implementation found at `inference`.
+2026-10-03T02:50:18,347 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - `model_fn` implementation found. It will be used in place of the default one.
+2026-10-03T02:50:18,348 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - `input_fn` implementation found. It will be used in place of the default one.
+2026-10-03T02:50:18,348 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - `predict_fn` implementation found. It will be used in place of the default one.
+2026-10-03T02:50:18,348 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - `output_fn` implementation found. It will be used in place of the default one.
+2026-10-03T02:50:18,348 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - No `transform_fn` implementation was found. The default one from the handler service will be used.
+2026-10-03T02:50:18,349 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - Loading AutoencoderKLFlux2 from /opt/ml/model on cuda (torch.bfloat16)
+2026-10-03T02:50:19,205 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - Warmup reconstruction succeeded.
+2026-10-03T02:50:19,206 [INFO ] W-9000-model com.amazonaws.ml.mms.wlm.WorkerThread - Backend response time: 5078
+2026-10-03T02:50:19,205 [INFO ] pool-2-thread-3 ACCESS_LOG - /<internal-ip-redacted> "GET /ping HTTP/1.1" 200 30
+2026-10-03T02:50:19,206 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - Model model loaded io_fd=96d3c8fffe4f63e5-00000020-00000000-d121b53f2dab56c1-1d0c18f5
+2026-10-03T02:50:19,207 [WARN ] W-9000-model com.amazonaws.ml.mms.wlm.WorkerLifeCycle - attachIOStreams() threadName=W-model-1
+2026-10-03T02:50:24,012 [INFO ] pool-2-thread-3 ACCESS_LOG - /<internal-ip-redacted> "GET /ping HTTP/1.1" 200 0
+2026-10-03T02:50:29,009 [INFO ] pool-2-thread-3 ACCESS_LOG - /<internal-ip-redacted> "GET /ping HTTP/1.1" 200 1
+2026-10-03T02:50:34,009 [INFO ] pool-2-thread-3 ACCESS_LOG - /<internal-ip-redacted> "GET /ping HTTP/1.1" 200 0
+2026-10-03T02:50:39,009 [INFO ] pool-2-thread-3 ACCESS_LOG - /<internal-ip-redacted> "GET /ping HTTP/1.1" 200 1
+2026-10-03T02:50:44,009 [INFO ] pool-2-thread-3 ACCESS_LOG - /<internal-ip-redacted> "GET /ping HTTP/1.1" 200 0
+2026-10-03T02:50:49,009 [INFO ] pool-2-thread-3 ACCESS_LOG - /<internal-ip-redacted> "GET /ping HTTP/1.1" 200 0
+2026-10-03T02:50:54,009 [INFO ] pool-2-thread-3 ACCESS_LOG - /<internal-ip-redacted> "GET /ping HTTP/1.1" 200 1
+2026-10-03T02:50:59,009 [INFO ] pool-2-thread-3 ACCESS_LOG - /<internal-ip-redacted> "GET /ping HTTP/1.1" 200 1
+2026-10-03T02:51:04,009 [INFO ] pool-2-thread-3 ACCESS_LOG - /<internal-ip-redacted> "GET /ping HTTP/1.1" 200 1
+2026-10-03T02:51:06,075 [INFO ] W-model-1-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - Preprocess time - 0.019311904907226562 ms
+2026-10-03T02:51:06,075 [INFO ] W-9000-model com.amazonaws.ml.mms.wlm.WorkerThread - Backend response time: 20
+2026-10-03T02:51:06,075 [INFO ] W-model-1-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - Predict time - 18.71037483215332 ms
+2026-10-03T02:51:06,076 [INFO ] W-model-1-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - Postprocess time - 0.04100799560546875 ms
+2026-10-03T02:51:06,076 [INFO ] W-9000-model ACCESS_LOG - /<internal-ip-redacted> "POST /invocations HTTP/1.1" 200 22
+2026-10-03T02:51:09,009 [INFO ] pool-2-thread-3 ACCESS_LOG - /<internal-ip-redacted> "GET /ping HTTP/1.1" 200 1
+2026-10-03T02:51:14,009 [INFO ] pool-2-thread-3 ACCESS_LOG - /<internal-ip-redacted> "GET /ping HTTP/1.1" 200 1
+2026-10-03T02:51:19,009 [INFO ] pool-2-thread-3 ACCESS_LOG - /<internal-ip-redacted> "GET /ping HTTP/1.1" 200 0
