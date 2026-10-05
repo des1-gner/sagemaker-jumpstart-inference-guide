@@ -15,6 +15,7 @@ payloads below are what each model actually expects.
 | `huggingface-tts-openbmb-voxcpm2` | Text to speech | text | base64 WAV |
 | `huggingface-od-nvidia-locateanything-3b` | Object detection / visual grounding | image + prompt | text with box coordinates |
 | `huggingface-txt2img-black-forest-labs-flux-2-small-decoder` | VAE image decoder | image | base64 PNG |
+| `huggingface-vlm-gemma-4-e2b-instruct` | Vision language model (chat) | text + image | text |
 
 Note on the last one: its model ID contains `txt2img`, but the model is a distilled VAE
 decoder. It takes an image and returns an image. It is not a text to image generator.
@@ -80,6 +81,38 @@ Response keys: `image_base64` (base64 PNG), `width`, `height`, `latent_shape`, `
 ("PNG"). You can also run a health check with a random latent and no image input:
 `{"parameters": {"height": 256, "width": 256, "seed": 0}}`.
 
+## Vision language models: finding the input contract
+
+Some JumpStart community models are vision language models (VLMs) served through a
+vLLM OpenAI compatible chat endpoint. For these, the example notebook can be very brief
+and may not show how to pass an image or what fields are accepted. The reliable way to
+know the contract is that these endpoints follow the OpenAI Chat Completions format.
+vLLM documents the multimodal (image) format here:
+https://docs.vllm.ai/en/latest/features/multimodal_inputs.html
+
+Example model: `huggingface-vlm-gemma-4-e2b-instruct` (see the `vlm-gemma-4-e2b-instruct/`
+folder for the notebook, payloads, response shapes, and a trimmed endpoint log).
+
+Content type is `application/json`. A text only request:
+
+```json
+{"messages": [{"role": "user", "content": "What is deep learning? Answer in one sentence."}], "max_tokens": 128}
+```
+
+To pass an image, `content` becomes a list of parts. The `image_url` part must be an
+object with a `url` field (not a plain string), and the `url` is a data URI with the
+base64 encoded image:
+
+```json
+{"messages": [{"role": "user", "content": [{"type": "text", "text": "What is in this image?"}, {"type": "image_url", "image_url": {"url": "data:image/png;base64,<BASE64_IMAGE>"}}]}], "max_tokens": 128}
+```
+
+The response is an OpenAI chat completion object. The generated text is at
+`choices[0].message.content`, with a `usage` object for token counts. If you pass
+`image_url` as a plain string instead of an object, the endpoint returns a 400 with a
+validation message saying `image_url` must be a dictionary, which is a quick way to
+check your payload shape.
+
 ## Repo layout
 
 ```
@@ -87,6 +120,7 @@ notebooks/   The model specific inference notebooks (one per model)
 payloads/    The exact request bodies used to test each model
 responses/   The response shape returned by each model (large base64 fields redacted to a length)
 logs/        A trimmed endpoint log from a real deployment of each model
+vlm-gemma-4-e2b-instruct/   VLM example: notebook, text and image payloads, response shapes, log
 ```
 
 The response files show the keys and types only. Large base64 blobs are shown as

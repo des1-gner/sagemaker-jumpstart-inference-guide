@@ -1,0 +1,120 @@
+(APIServer pid=77)     await self.middleware_stack(scope, receive, send)
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+(APIServer pid=77)     raise exc
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+(APIServer pid=77)     await self.app(scope, receive, _send)
+(APIServer pid=77)   File "/usr/local/bin/sagemaker_serve.py", line 52, in __call__
+(APIServer pid=77)     await self.app(scope, receive, send)
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/starlette/middleware/cors.py", line 88, in __call__
+(APIServer pid=77)     await self.app(scope, receive, send)
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/prometheus_fastapi_instrumentator/middleware.py", line 176, in __call__
+(APIServer pid=77)     raise exc
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/prometheus_fastapi_instrumentator/middleware.py", line 174, in __call__
+(APIServer pid=77)     await self.app(scope, receive, send_wrapper)
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+(APIServer pid=77)     await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+(APIServer pid=77)     raise exc
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+(APIServer pid=77)     await app(scope, receive, sender)
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+(APIServer pid=77)     await self.app(scope, receive, send)
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/starlette/routing.py", line 660, in __call__
+(APIServer pid=77)     await self.middleware_stack(scope, receive, send)
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/starlette/routing.py", line 680, in app
+(APIServer pid=77)     await route.handle(scope, receive, send)
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/starlette/routing.py", line 276, in handle
+(APIServer pid=77)     await self.app(scope, receive, send)
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/fastapi/routing.py", line 134, in app
+(APIServer pid=77)     await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+(APIServer pid=77)     raise exc
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+(APIServer pid=77)     await app(scope, receive, sender)
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/fastapi/routing.py", line 120, in app
+(APIServer pid=77)     response = await f(request)
+(APIServer pid=77)                ^^^^^^^^^^^^^^^^
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/fastapi/routing.py", line 674, in app
+(APIServer pid=77)     raw_response = await run_endpoint_function(
+(APIServer pid=77)                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/fastapi/routing.py", line 328, in run_endpoint_function
+(APIServer pid=77)     return await dependant.call(**values)
+(APIServer pid=77)            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/model_hosting_container_standards/common/transforms/base_factory.py", line 101, in decorated_func
+(APIServer pid=77)     response = await transformer.intercept(func, transform_request_output)
+(APIServer pid=77)                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/model_hosting_container_standards/common/transforms/base_api_transform.py", line 81, in intercept
+(APIServer pid=77)     response = await func_to_call(transformed_raw_request)
+(APIServer pid=77)                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/model_hosting_container_standards/common/transforms/base_factory.py", line 101, in decorated_func
+(APIServer pid=77)     response = await transformer.intercept(func, transform_request_output)
+(APIServer pid=77)                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/model_hosting_container_standards/common/transforms/base_api_transform.py", line 81, in intercept
+(APIServer pid=77)     response = await func_to_call(transformed_raw_request)
+(APIServer pid=77)                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/vllm/entrypoints/sagemaker/api_router.py", line 89, in invocations
+(APIServer pid=77)     return await endpoint(request, raw_request)
+(APIServer pid=77)            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/vllm/entrypoints/utils.py", line 96, in wrapper
+(APIServer pid=77)     return handler_task.result()
+(APIServer pid=77)            ^^^^^^^^^^^^^^^^^^^^^
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/vllm/entrypoints/utils.py", line 117, in wrapper
+(APIServer pid=77)     return await func(*args, **kwargs)
+(APIServer pid=77)            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/vllm/entrypoints/openai/chat_completion/api_router.py", line 61, in create_chat_completion
+(APIServer pid=77)     generator = await handler.create_chat_completion(request, raw_request)
+(APIServer pid=77)                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/vllm/entrypoints/openai/chat_completion/serving.py", line 240, in create_chat_completion
+(APIServer pid=77)     return await self._with_kv_transfer_rejection_cleanup(
+(APIServer pid=77)            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/vllm/entrypoints/openai/engine/serving.py", line 431, in _with_kv_transfer_rejection_cleanup
+(APIServer pid=77)     return await awaitable
+(APIServer pid=77)            ^^^^^^^^^^^^^^^
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/vllm/entrypoints/openai/chat_completion/serving.py", line 259, in _create_chat_completion
+(APIServer pid=77)     result = await self.render_chat_request(request)
+(APIServer pid=77)              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/vllm/entrypoints/openai/chat_completion/serving.py", line 226, in render_chat_request
+(APIServer pid=77)     return await self.openai_serving_render.render_chat(request)
+(APIServer pid=77)            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/vllm/entrypoints/serve/render/serving.py", line 250, in render_chat
+(APIServer pid=77)     conversation, engine_inputs = await self.preprocess_chat(
+(APIServer pid=77)                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/vllm/entrypoints/serve/render/serving.py", line 562, in preprocess_chat
+(APIServer pid=77)     (conversation,), (engine_input,) = await renderer.render_chat_async(
+(APIServer pid=77)                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/vllm/renderers/base.py", line 1019, in render_chat_async
+(APIServer pid=77)     for conv, prompt in await asyncio.gather(*rendered):
+(APIServer pid=77)                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/vllm/renderers/hf.py", line 938, in render_messages_async
+(APIServer pid=77)     conversation, mm_data, mm_uuids = await parse_chat_messages_async(
+(APIServer pid=77)                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/vllm/entrypoints/chat_utils.py", line 1902, in parse_chat_messages_async
+(APIServer pid=77)     sub_messages = _parse_chat_message_content(
+(APIServer pid=77)                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/vllm/entrypoints/chat_utils.py", line 1741, in _parse_chat_message_content
+(APIServer pid=77)     result = _parse_chat_message_content_parts(
+(APIServer pid=77)              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/vllm/entrypoints/chat_utils.py", line 1565, in _parse_chat_message_content_parts
+(APIServer pid=77)     parse_res = _parse_chat_message_content_part(
+(APIServer pid=77)                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/vllm/entrypoints/chat_utils.py", line 1630, in _parse_chat_message_content_part
+(APIServer pid=77)     part_type, content = _parse_chat_message_content_mm_part(part)
+(APIServer pid=77)                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/vllm/entrypoints/chat_utils.py", line 1461, in _parse_chat_message_content_mm_part
+(APIServer pid=77)     content = MM_PARSER_MAP[part_type](part)
+(APIServer pid=77)               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/vllm/entrypoints/chat_utils.py", line 1422, in <lambda>
+(APIServer pid=77)     "image_url": lambda part: _ImageParser(part).get("image_url", {}).get("url", None),
+(APIServer pid=77)                               ^^^^^^^^^^^^^^^^^^
+(APIServer pid=77)   File "/opt/venv/lib64/python3.12/site-packages/pydantic/type_adapter.py", line 441, in validate_python
+(APIServer pid=77)     return self.validator.validate_python(
+(APIServer pid=77)            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(APIServer pid=77) pydantic_core._pydantic_core.ValidationError: 1 validation error for ChatCompletionContentPartImageParam
+(APIServer pid=77) image_url
+(APIServer pid=77)   Input should be a valid dictionary [type=dict_type, input_value='data:image/png;base64,iV...lumqH4AAAAASUVORK5CYII=', input_type=str]
+(APIServer pid=77)     For further information visit https://errors.pydantic.dev/2.13/v/dict_type
+(APIServer pid=77) INFO:     <internal-ip-redacted> - "GET /ping HTTP/1.1" 200 OK
+(APIServer pid=77) INFO:     <internal-ip-redacted> - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=77) INFO 10-05 23:04:03 [loggers.py:271] Engine 000: Avg prompt throughput: 29.5 tokens/s, Avg generation throughput: 4.2 tokens/s, Running: 0 reqs, Waiting: 0 reqs, GPU KV cache usage: 0.0%, Prefix cache hit rate: 0.0%, MM cache hit rate: 0.0%
+(APIServer pid=77) INFO:     <internal-ip-redacted> - "GET /ping HTTP/1.1" 200 OK
+(APIServer pid=77) INFO:     <internal-ip-redacted> - "GET /ping HTTP/1.1" 200 OK

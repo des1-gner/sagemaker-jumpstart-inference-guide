@@ -1,0 +1,38 @@
+{
+  "id": "chatcmpl-<redacted>",
+  "object": "chat.completion",
+  "created": 1791241440,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "<model generated text>",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 106,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.22.1rc0+amzn2023.6aabe221-77bbc278",
+  "usage": {
+    "prompt_tokens": 276,
+    "total_tokens": 290,
+    "completion_tokens": 14,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}
