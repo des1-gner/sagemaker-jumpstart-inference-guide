@@ -16,6 +16,7 @@ payloads below are what each model actually expects.
 | `huggingface-od-nvidia-locateanything-3b` | Object detection / visual grounding | image + prompt | text with box coordinates |
 | `huggingface-txt2img-black-forest-labs-flux-2-small-decoder` | VAE image decoder | image | base64 PNG |
 | `huggingface-vlm-gemma-4-e2b-instruct` | Vision language model (chat) | text + image | text |
+| `huggingface-img2img-flux-2-klein-base-4b` | Image generation (OpenAI Images route) | text | base64 PNG |
 
 Note on the last one: its model ID contains `txt2img`, but the model is a distilled VAE
 decoder. It takes an image and returns an image. It is not a text to image generator.
@@ -113,6 +114,37 @@ The response is an OpenAI chat completion object. The generated text is at
 validation message saying `image_url` must be a dictionary, which is a quick way to
 check your payload shape.
 
+## Image generation via the OpenAI Images route
+
+Some JumpStart image models serve the OpenAI Images API rather than a plain `/invocations`
+body. Example model: `huggingface-img2img-flux-2-klein-base-4b` (see the
+`img2img-flux-2-klein-base-4b/` folder). Note the model id contains `img2img`, but the
+served contract is text to image generation.
+
+Two details matter for this one: you must set the `CustomAttributes` header to select the
+route, and the generated image comes back as `b64_json`.
+
+```python
+import json, base64, boto3
+
+rt = boto3.client("sagemaker-runtime", region_name="your-region")
+payload = {"model": "/opt/ml/model", "prompt": "A sunset over mountains with dramatic clouds", "n": 1, "size": "512x512"}
+
+resp = rt.invoke_endpoint(
+    EndpointName="<your-endpoint-name>",
+    ContentType="application/json",
+    CustomAttributes="route=/v1/images/generations",
+    Body=json.dumps(payload).encode("utf-8"),
+)
+result = json.loads(resp["Body"].read())
+img = base64.b64decode(result["data"][0]["b64_json"])
+open("generated_image.png", "wb").write(img)
+```
+
+Response shape: top level `created`, `data`, `output_format`, `size`; each `data[]` item has
+`b64_json`, `url`, and `revised_prompt`. Default instance type is `ml.g6e.xlarge` (supported
+`ml.g6.*`, `ml.g6e.*`, `ml.g7e.*`). Deployed and invoked end to end to confirm this contract.
+
 ## Repo layout
 
 ```
@@ -121,6 +153,7 @@ payloads/    The exact request bodies used to test each model
 responses/   The response shape returned by each model (large base64 fields redacted to a length)
 logs/        A trimmed endpoint log from a real deployment of each model
 vlm-gemma-4-e2b-instruct/   VLM example: notebook, text and image payloads, response shapes, log
+img2img-flux-2-klein-base-4b/   Image-generation example: notebook, request, response shape
 ```
 
 The response files show the keys and types only. Large base64 blobs are shown as
